@@ -46,7 +46,7 @@ public class Main {
 			break;
 			
 			case 2:
-				System.out.print("Digite o valor do depósito: ");
+				System.out.print("\nDigite o valor do depósito: ");
 				valor = sc.nextDouble();
 				
 				if(valor <= 0) {
@@ -78,7 +78,7 @@ public class Main {
 			break;
 			
 			default:
-				System.out.println("Opção inválida.");
+				System.out.println("\nOpção inválida.");
 			}
 			
 				
